@@ -1,0 +1,31 @@
+name: AvatarCore
+main: com.sanan.avatarcore.AvatarCore
+version: 0.0.1
+author: Sanan
+depend: [WorldGuard, Essentials, ProtocolLib]
+api-version: 1.13
+commands:
+    tribe:
+        description: Base Tribe commands for AvatarCore.
+        usage: /tribe
+        aliases: [t, tr]
+        permission: avatarcore.tribe
+    nation:
+        description: Base Nation commands for AvatarCore.
+        usage: /nation
+        aliases: [n]
+        permission: avatarcore.nation
+    bending:
+        description: Bending commands for AvatarCore.
+        usage: /bending
+        aliases: [bend]
+        permission: avatarcore.bending
+    plot:
+        description: Plot commands for AvatarCore.
+        usage: /plot
+    crate:
+        description: Crate commands for AvatarCore.
+        usage: /crate
+    skip:
+        description: Tutorial commands for AvatarCore.
+        usage: /skip
